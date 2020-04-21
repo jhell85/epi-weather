@@ -19,7 +19,7 @@ plugins: [
   new CleanWebpackPlugin(),
   new Dotenv(),
   new HtmlWebpackPlugin({
-    title: 'Ping Pong',
+    title: 'open-weather',
     template: './src/index.html',
     inject: 'body'
   })
